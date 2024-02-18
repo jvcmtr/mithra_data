@@ -1,0 +1,400 @@
+Ofensivas
+Investida 
+    (Habilidade Ofensiva)
+Quando você se move em linha reta em uma direção, você pode realizar um ataque conduzido contra as criaturas em seu caminho
+
+Força total
+    (Habilidade Ofensiva)
+Quando você realiza um ataque simples depois de se mover em direção a um inimigo, você ganha vantagem nas jogadas de impacto do seu ataque e inimigos acertados por ele são derrubados no chão.
+
+Ataque com duas armas
+    (Habilidade Ofensiva)
+Quando você segura uma arma em cada mão e nenhuma delas é um escudo você pode fazer um ataque com as duas armas ao mesmo tempo, quando faz isso, você pode somar os bônus de impacto e dano das duas armas, mas deve utilizar o menor bônus de manuseio.
+
+Assassinar
+    (Habilidade Ofensiva)
+Se você estiver furtivo quando realizar este ataque, você recebe +2  de dano.
+
+Sequência
+    (Habilidade Ofensiva)
+Você realiza dois ataques simples contra um inimigo dentro do alcance.
+
+Manter ocupado 
+    (Habilidade Ofensiva)
+Você realiza uma série de ataques em direção ao inimigo tentando sobrecarregá-lo. Até o início de seu próximo turno o inimigo fica Atarefado e possui desvantagem em qualquer ataque que não seja contra você.
+
+Finta
+    (Habilidade Ofensiva)
+Você realiza um ataque simples corpo a corpo contra um inimigo que consiga te ver. Quando o inimigo escolhe como irá reagir, você pode tentar ser vitorioso em um teste de Inteligência contra o inimigo, se for bem sucedido, você pode obrigar o inimigo a mudar a ação defensiva ou habilidade defensiva que escolheu. Você não pode utilizar esta habilidade em dois turnos consecutivos.
+
+Reposicionamento 
+    (Habilidade Ofensiva)
+Você realiza um ataque simples ou conduzido. Este ataque possui a propriedade de reposicionamento.
+
+Sequência Furiosa
+    (Habilidade Ofensiva)
+Você realiza um ataque simples corpo a corpo contra o oponente. A cada vez que você utilizar esta ação novamente contra o mesmo inimigo, você pode adicionar +1 ao seu bônus de dano e impacto com este ataque, até um máximo de +3. Se você utilizar qualquer outra ação que não essa ou o inimigo não escolher executar uma defesa, você perde este bônus. 
+
+Dança de Combate
+    (Habilidade Ofensiva)
+Você realiza um ataque simples corpo a corpo contra o oponente. A cada vez que você utilizar esta ação novamente contra o mesmo inimigo, você pode adicionar +1 ao seu bônus de acerto com este ataque, até um máximo de +3. Se você utilizar qualquer outra ação que não essa, o seu bônus retorna a 0. 
+
+Ataque Rápido
+    (Habilidade Ofensiva)
+Você faz uma disputa de Agilidade contra a Percepção do inimigo, se você for vitorioso o inimigo tem desvantagem em se defender ou aparar o seu ataque.
+
+Ataque convicto 
+    (Habilidade Ofensiva)
+Você realiza um ataque simples corpo a corpo e reduz à metade o seu modificador de precisão, quando faz isso, você pode somar o seu modificador de convicção para calcular o impacto do seu ataque. Além disso, o seu dano aumenta em 2.
+
+Arco convicto 
+    (Habilidade Ofensiva)
+    Requer Ataque Convicto
+Você realiza um ataque conduzido corpo a corpo contra qualquer criatura dentro do alcance e reduz à metade o seu modificador de precisão, quando faz isso, você pode somar o seu modificador de convicção para calcular o impacto do seu ataque. Além disso, o seu dano aumenta em 2.
+
+Ataque Descendente
+    (Habilidade Ofensiva)
+Você realiza um ataque simples corpo a corpo com esta arma e recebe desvantagem na sua jogada de acerto, se o inimigo for acertado, você o derruba no chão. Este ataque recebe mais 1 de dano se a criatura estiver caída.
+
+Ataque Sorrateiro
+    (Habilidade Ofensiva)
+Você realiza um teste de Acerto contra o Modificador de Postura(Agilidade) do inimigo. Se você for bem sucedido, o inimigo é derrubado no chão e fica surpreso.
+
+Ataque em Arco 
+    (Técnica de Combate)
+Você pode realizar um ataque conduzido contra até 3 criaturas no alcance da sua arma.
+
+Tartaruga 
+    (Habilidade Ofensiva)
+Você usa a sua ação para atacar com o escudo e recebe vantagem em seus testes de defesa contra o inimigo que você atacou até o início do seu próximo turno.
+
+Barragem de projéteis 
+    (Habilidade Ofensiva)
+Você pode escolher realizar um ataque a distância como um ataque em área.
+
+Ataque giratório 
+    (Habilidade Ofensiva)
+Você pode realizar um ataque básico corpo a corpo em área com qualquer arma corpo a corpo que possua dano cortante ou contundente.
+
+Ataque de Pulo
+    (Habilidade Ofensiva)
+Você pula em direção a um inimigo para realizar um ataque devastador. Quando faz isso, o dano e o impacto do seu ataque aumentam em 1, contudo se você o inimigo for capaz de se proteger do ataque, você cai no chão.
+
+Imobilizador
+    (Habilidade Defensiva)
+Enquanto você está agarrando um inimigo, você pode escolher imobilizá-lo, quando faz isso, todos os seus ataques acertam automaticamente o alvo imobilizado, mas você é automaticamente acertado por todos os ataques, com exceção dos ataques feitos pela criatura imobilizada.
+
+Agarrão 
+    (Habilidade Defensiva)
+Você escolhe entre se esquivar ou agarrar um ataque corpo a corpo. Quando é bem sucedido, o inimigo não pode mais atacar neste turno e fica agarrado por você. Você deve ter uma mão livre para fazer isso.
+
+Aparo preciso
+    (Habilidade Defensiva)
+    Requer Guerreiro defensivo
+Você apara um ataque à distância.
+
+Punhos Aço
+    (Habilidade Defensiva)
+Enquanto você possui uma mão livre, você pode aparar qualquer ataque que possua dano contundente. Quando faz isso, você utiliza o seu modificador de força no lugar de sua agilidade.
+
+Instintos
+    (Habilidade Defensiva)
+Quando você é alvo de um ataque, você pode escolher usar a sua Percepção no lugar da sua agilidade para definir o seu modificador de Esquiva.
+
+Movimentação Evasiva
+    (Habilidade Defensiva)
+Quando você tenta se esquivar de um ataque e não há inimigos ou objetos impedindo a sua movimentação, você pode escolher se mover para fora do alcance do ataque e receber vantagem em sua disputa de esquiva
+
+Previsão 
+    (Habilidade Defensiva)
+Quando você é alvo de qualquer ataque, você pode escolher fazer um teste de percepção contra a inteligência do inimigo, se você for bem sucedido, você ganha vantagem em se esquivar, aparar ou agarrar o ataque. 
+
+Contra Ataque Instintivo
+    (Habilidade Defensiva)
+    Requer Previsão e Contra Ataque
+Quando você é bem sucedido em esquivar utilizando a sua habilidade Previsão. Você pode realizar um ataque simples contra o inimigo como se estivesse usando a sua habilidade de Contra Ataque
+
+Contra Ataque 
+    (Habilidade Defensiva)
+Quando você é bem sucedido em se esquivar, defender ou aparar um ataque, você pode realizar um ataque simples básico contra o inimigo e ele não pode se defender usando a mesma arma que usou para atacar. Uma vez que você use esta habilidade, você não pode mais usá-la até o início de seu próximo turno.
+
+Esquiva Acrobática
+    (Habilidade Defensiva)
+Você ganha vantagem em se esquivar do ataque de um inimigo. Contudo, você fica derrubado no chão após a sua esquiva.
+
+Aparo Desarmante 
+    (Habilidade Defensiva)
+Você escolhe entre aparar ou segurar (requer uma mão livre) um ataque corpo a corpo, se for bem sucedido você pode desarmar o oponente, fazendo-o largar a arma que ele utilizou para atacar.
+
+Convicção Inabalável
+    (Habilidade Defensiva)
+Você pode usar a sua convicção no lugar da sua força para calcular o seu modificador de defesa. Para fazer isso, você não pode estar desorientado.
+
+Memorizar Movimento
+    (Habilidade Defensiva)
+Uma vez que um inimigo te acertar, você pode memorizar os movimentos dele. Uma vez que tenha feito isso, ele possui desvantagem nas disputas de Acerto e Impacto para te acertar com o mesmo movimento de novo. Você só pode ter um movimento memorizado por vez.
+
+Padrão de Ataque 
+    (Habilidade Defensiva)
+Você pode utilizar o seu modificador de inteligência para se esquivar de um ataque feito por um inimigo que já te acertou durante este combate. Além disso, você se torna imune à habilidade Finta de um inimigo se ele já usou ela contra você neste combate. À critério da mesa, você também pode ser imune a outras habilidades que já foram usadas contra você. Você não pode usar esta habilidade se estiver desorientado.
+
+Golpe com escudo 
+    (Habilidade Defensiva)
+Você defende um ataque inimigo com um escudo, caso seja bem sucedido, você pode fazer um ataque simples contra o inimigo usando este escudo e derrubá-lo ou desorienta-lo caso você acerte.
+
+Sádico 
+    (Habilidade Defensiva)
+Quando você tenta resistir a um ataque, você pode fazer um ataque básico contra o atacante. O atacante então possui desvantagem em qualquer teste ou disputa para se defender do seu ataque
+
+Mártir 
+    (Habilidade Defensiva)
+    Requer Sádico
+Quando você tenta resistir a um ataque, você pode escolher falhar propositalmente no teste e perder qualquer resistência que tenha contra o dano recebido. Quando faz isso, você pode realizar um ataque ou Habilidade Ofensiva contra o inimigo, ele é acertado automaticamente pelo ataque e perde qualquer resistência que tenha ao dano do seu ataque.
+
+Combate com duas armas 
+    (Técnica de Combate)
+Quando você usa esta habilidade, você pode realizar um ataque simples adicional antes do final do seu turno com uma arma que ainda não usou neste turno.
+
+Ataque duplo
+    (Técnica de Combate)
+    Requer Combate com duas armas 
+Quando você ataca pela segunda vez no seu turno, o seu segundo ataque recebe +2 de acerto
+
+Neutralizador
+    (Técnica de Combate)
+Enquanto você está agarrando um inimigo, ele tem desvantagem em testes contra ser derrubado ou desarmado.
+
+Assassino
+    (Técnica de Combate)
+    Requer Assassinar
+O bônus de dano da sua habilidade Assassino passa a ser +3
+
+Acrobata
+    (Técnica de Combate)
+Você ganha vantagem em testes de acrobacia e pode reduzir danos de queda pela metade, sempre que você é bem sucedido em uma ação, você automaticamente levanta. Além disso, você pode se esquivar mesmo na condição em queda.
+
+Combate Acrobático
+    (Técnica de Combate)
+Você pode realizar ataques desarmados mesmo quando está com suas mãos ocupadas. Além disso, você recebe vantagem em acerto e impacto enquanto está em queda.
+
+Ditar o movimento
+    (Técnica de Combate)
+Sempre que você se é bem sucedido em se esquivar de um ataque ou quando um inimigo se esquiva de você, você pode se mover ou mover o inimigo um passo em qualquer direção.
+
+Reflexos
+    (Técnica de Combate)
+Você recebe +1 em suas disputas de esquiva.
+
+Finalização
+    (Técnica de Combate)
+Quando utiliza uma habilidade ofensiva você pode declarar que ela é uma finalização. Se o dano que você causar no inimigo for maior que o dobro da resistência dele, ele cai a zero pontos de vida automaticamente. Se o inimigo sobreviver a esta sua ação, ele pode realizar qualquer ação contra você. Você só pode realizar esta habilidade uma vez por combate.
+
+Mestre de muitas armas 
+    (Técnica de Combate)
+Você não precisa gastar uma ação para trocar de arma no meio de um combate, você pode fazê-lo livremente no final de cada um dos seus turnos
+
+Lançar e sacar
+    (Técnica de Combate)
+Sempre que você arremessar uma arma, você pode imediatamente sacar outra.
+
+Mestre do Lançamento 
+    (Técnica de Combate)
+Você pode arremessar qualquer arma que tenha em mãos. 
+
+Arma escondida 
+    (Técnica de Combate)
+Sempre que você troca de arma durante um combate você possui vantagem na primeira disputa de acerto que fizer com a nova arma.
+
+Dança Improvisada
+    (Técnica de Combate)
+    Requer Dança de Combate
+Uma vez que você utilize a sua habilidade Dança de combate, qualquer outro ataque corpo a corpo contra o mesmo inimigo serve para o propósito de aumentar o seu bônus.
+
+Descontar Fúria
+    (Técnica de Combate)
+    Requer Sequência Furiosa
+Uma vez que você utilize a sua habilidade Sequência Furiosa, você pode realizar qualquer ataque corpo a corpo contra um inimigo. Os seus bônus se aplicam neste ataque, mas depois disso eles retornam a 0 novamente.
+
+Postura Imponente
+    (Técnica de Combate)
+Quando você acerta um ataque, Qualquer inimigo que tenha visto você deve fazer um teste de convicção contra 10+o seu modificador de convicção, se falharem, eles ficam intimidados.
+
+ Grande Porte
+    (Técnica de Combate)
+Você pode ignorar a propriedade Pesada de armaduras. Além disso, você possui vantagem em testes de força para evitar ser derrubado, empurrado ou ficar sobrecarregado.
+
+Levantamento de peso
+    (Técnica de Combate)
+    Requer Grande porte
+Você pode carregar itens cuja soma dos modificadores de carga não superem 6 sem ficar sobrecarregado. Isto é, até dois itens de classe C ou um item de classe E.
+
+Combate técnico 
+    (Técnica de Combate)
+Você pode assumir uma postura calculista durante o combate. enquanto faz isso, você pode escolher utilizar o seu atributo de inteligência no lugar do seu atributo de agilidade para calcular o acerto de um ataque. Você não pode manter esta postura enquanto está desorientado.
+
+Punho propulsor
+    (Técnica de Combate)
+Sempre que um de seus golpes com uma arma não letal é defendido ou acertado, você pode escolher fazer um teste para tentar empurrar ou derrubar o inimigo.
+
+Punho de batalha 
+    (Técnica de Combate)
+Você recebe +1 nos testes de acerto e impacto com os seus punhos.
+
+Sem Escapar
+    (Técnica de Combate)
+Quando um inimigo é bem sucedido em se esquivar de um ataque seu, você pode realizar um segundo ataque simples, o inimigo possui desvantagem em se esquivar deste segundo ataque. Além disso, você pode atacar um inimigo sempre que ele tentar se afastar de você.
+
+Ataque em equipe
+    (Técnica de Combate)
+Se escolher esperar no seu turno, você pode realizar uma ação de ataque contra um inimigo que acabou de ser atacado, quando faz isso, o inimigo é obrigado a utilizar a mesma defesa e recebe desvantagem em qualquer teste ou disputa relacionada a ela.
+
+Guardião
+    (Técnica de Combate)
+Você pode escolher defender uma passagem. Enquanto você defende ela, você não pode ser derrubado, empurrado ou reposicionado e não pode sofrer da condição atarefado. Além disso, seus ataques de oportunidade passam a dar dano.
+
+Tiro à queima roupa
+    (Técnica de Combate)
+Você consegue usar uma arma a longa distância como uma arma corpo a corpo sem receber nenhuma desvantagem. Quando faz isso, o alcance da sua arma é limitado e você deve utilizar agilidade para acertar o inimigo, no lugar de percepção.
+
+Protetor
+    (Técnica de Combate)
+    Requer estar segurando um escudo
+Quando uma criatura é atacada dentro de seu alcance corpo a corpo, você pode usar o seu bônus de defesa para tentar protegê-la, se falhar, você recebe o dano no lugar da criatura
+
+Convicção Cativante
+    (Técnica de Combate)
+    Requer Convicção Inabalável
+Quando você usa a sua habilidade Convicção Inabalável e é bem sucedido em se defender do ataque, o atacante fica admirado com a sua obstinação. Ele recebe a condição Surpreso até o início do próximo turno dele. Uma vez que o inimigo fique saia deste estado, ele se torna imune a esta habilidade até o final do combate.
+
+Manter distância 
+    (Técnica de Combate)
+Você pode realizar um ataque de oportunidade contra um inimigo que entra em seu alcance. Você não pode usar esta habilidade se estiver desorientado.
+
+Olhar atento
+    (Técnica de Combate)
+Você pode realizar ataques de oportunidade com armas a distância. Quando faz isso, o seu medidor de atenção diminui em 1.
+
+Oportunista
+    (Técnica de Combate)
+Você pode realizar um ataque contra uma criatura imediatamente depois que ela for segurada, agarrada ou derrubada, ou se move dentro do seu alcance. Uma vez que use esta habilidade, você não pode usá-la novamente até o início do seu próximo turno. Você também não pode usar esta habilidade se estiver desorientado.
+
+Covarde
+    (Técnica de Combate)
+O dano do seu ataque aumenta em +1 quando você acerta um ataque simples contra um inimigo que possui desvantagem em se proteger do seu ataque. 
+
+Artista Marcial
+    (Técnica de Combate)
+Seus ataques desarmados passam a contar como armas que possuem +1 de acerto, dano e impacto.
+
+Guerreiro defensivo 
+    (Técnica de Combate)
+Você pode aparar ataques com qualquer arma que esteja carregando.
+
+Escudo confiável 
+    (Técnica de Combate)
+Enquanto segura um escudo, você não possui desvantagem em defender por estar atarefado ou derrubado. Além disso, você possui vantagem contra ser desarmado do seu escudo.
+
+Mestre do Contra Ataque
+    (Técnica de Combate)
+    Requer Contra Ataque
+Você pode utilizar a sua habilidade Contra Ataque quantas vezes quiser entre os seus turnos, mas somente uma vez contra cada inimigo.
+
+Arma Confiável
+    (Técnica de Combate)
+Quando você escolher esta habilidade, você deve escolher um tipo de arma. Você não pode ser desarmado de armas deste tipo.
+
+Um com a Arma
+    (Técnica de Combate)
+    Requer Arma Confiável
+Quando você ganha esta habilidade você deve escolher um tipo de arma dentre as que você é habituado com a sua habilidade Arma Confiável, enquanto segura ela você possui a mesma destreza que possui com as suas mãos. Você é capaz de desatar nós e fazer movimentos precisos e suaves. A sua arma pode contar como não letal e você pode se considerar com “uma mão livre” para qualquer requisito que não seja o requisito de uma ação. Além disso, você pode usar a sua arma para se defender ou aparar um contra-ataque, mesmo que já tenha usado ela para atacar.	
+
+Pele de pedra 
+    (Técnica de Combate)
+Você utiliza a sua constituição no lugar da sua convicção para tentar resistir a um ataque, além disso, se você não estiver usando armadura, quando você é bem sucedido, o dano que você recebe é reduzido em um valor igual ao seu nível.
+
+Irmão dos animais 
+Você sabe se comunicar com animais tão bem quanto consegue se comunicar com outras pessoas. Você consegue entender seus sentimentos e estado de espírito como consegue entender o de um humano e consegue transmitir ideias simples. A complexidade das ideias que você consegue transmitir está relacionada à inteligência do próprio animal e a vontade dele de entender o que você tem a dizer. Por exemplo, um lobo faminto provavelmente não dará ouvidos a uma possível refeição.
+
+Irmão da natureza 
+Você consegue aprender com a natureza e ouvir o que ela tem a te dizer. Você consegue entender o estado de espírito e as necessidades básicas de qualquer planta. Você também consegue adquirir conhecimentos sobre as estações e características de qualquer bioma, contanto que tenha acesso a pelo menos um espécime vegetal nativo daquele lugar. Além disso, você consegue identificar quaisquer propriedades do espécime que possui, incluindo se ele é venenoso ou não, se possui propriedades curativas ou bom valor nutricional.
+
+Um com o animal 
+Você escolhe uma espécie de animais ou plantas e consegue se tornar um com eles. Você sabe adaptar o seu pensamento a linguagem deles podendo transmitir ideias de qualquer complexidade, apesar da capacidade de resposta deles ainda poder ser limitada a sua inteligência. Além disso, estes animais te reconhecem como um deles mesmo que você ainda não tenha se comunicado ou interagido com eles. Para animais que seguem algum tipo de estrutura social, você pode fazer parte dela.
+
+Contorcionista
+Você possui vantagem em testes para sair da condição de agarrado e para passar por lugares estreitos.
+
+Guerreiro Analítico
+Sempre que você é alvo do ataque de uma criatura, você pode descobrir o valor de um dos atributos dela. Uma vez que você faça isso, você não pode utilizar esta habilidade novamente até o início de seu próximo turno.
+
+Analítico de combate
+    Requer Guerreiro Analítico
+Você pode utilizar a sua habilidade Guerreiro analítico contra qualquer criatura que você consiga ver realizando um ataque.
+
+Guerreiro Autodidata 
+Quando você vê alguém usando uma habilidade ofensiva ou defensiva, você pode escolher torna-la a sua habilidade copiada. Quando faz isso, anote a habilidade, seus Requisitos e um número igual à 10 + o modificador do inimigo para usar aquela habilidade, Este número corresponde ao desafio da habilidade. Uma vez que a habilidade esteja copiada, você pode tentar usar ela no seu turno, sempre que tentar fazer isso, você deve ser bem sucedido em um teste de inteligência contra a habilidade copiada. Você só pode possuir uma habilidade copiada em um determinado momento.
+
+Guerreiro Genial
+    Requer Guerreiro Autodidata
+Sempre que você possuir uma habilidade copiada, você pode deixar de usufruir de um descanso longo para treinar a habilidade. Quando faz isso, você deve realizar 5 testes contra o desafio da habilidade, se você for bem sucedido em pelo menos 3, a habilidade passa a contar como decorada para você.  Você não precisa ser bem sucedido em um teste contra a habilidade que você tem decorada para poder usá-la. Contudo, você só pode ter uma habilidade decorada por vez e ela não precisa ser a mesma que a sua habilidade copiada.
+
+Repertório de Batalha
+    Requer guerreiro Genial
+Você pode ter até 3 habilidades decoradas em um determinado momento
+
+Mentor de combate
+    Requer Guerreiro Autodidata
+Você pode deixar de usufruir de um descanso longo para treinar com um mentor que esteja disposto a te ensinar, quando faz isso, você pode escolher copiar até 3 habilidades do seu mentor. Se você copiar uma habilidade de uma criatura que não seja o seu mentor, você volta a só poder ter uma habilidade copiada.
+
+Aprendiz dedicado
+Sempre que for necessário um teste de inteligência para aprender ou executar uma habilidade, você pode tentar conseguir isso com tempo, dedicação e força de vontade. Para isso você deve deixar de usufruir de um descanso longo estudando e treinando e, ao final do descanso, você pode substituir seu modificador de convicção pelo seu modificador de inteligência para aquele teste em específico.
+
+Artesão
+Quando escolhe esta habilidade, você escolhe um tipo de material para se especializar (metal, pedra, madeira, tecido, etc…). Você é capaz de apontar uma falha estrutural ou ponto fraco em um objeto feito deste material, Além disso, se você possuir os equipamentos, recursos e tempo necessários, você é capaz de consertar ou reproduzir qualquer objeto deste material que você já tenha analisado. Você pode escolher esta habilidade mais de uma vez, escolhendo um material diferente a cada vez.
+
+Artesão Mestre
+    Requer Artesão
+Você escolhe um dos materiais de artesão em que você se especializou e se torna mestre dele, ganhando os seguintes benefícios: 
+Você tem vantagem em qualquer teste relacionado ao conhecimento daquele material, podendo deduzir culturas ou artesãos específicos que podem tê-lo feito. 
+Objetos que você constroi usando este material possuem maior resistência.
+Você pode adicionar metade do seu modificador de inteligência ao dano de ataques feitos contra este material.
+Você aprende a ler e reproduzir qualquer diagrama, e pode traduzi-lo para artesões não mestres.
+
+Engenheiro
+Você é capaz de prever o funcionamento de qualquer diagrama que consiga ver, além disso, você é capaz de identificar o ponto fraco de qualquer estrutura e prever a quantidade de força necessária para destruir qualquer construção, mecanismo ou objeto. A exatidão das informações que você consegue extrair está relacionada com a exatidão do que você consegue ver e medir em uma estrutura. Ou seja, dada a quantidade suficiente de tempo e recursos para se medir e avaliar uma estrutura ou objeto, você pode avaliá-la com qualquer exatidão. À Critério da mesa, esta quantidade de tempo e recursos pode ser substituída por um teste de lógica (inteligência) ou um teste de avaliação (percepção).  Além disso, você aprende a ler diagramas.
+
+Inventor
+Você é capaz de conceber estruturas complexas utilizando cordas, engrenagens, esteiras, e materiais flexiveis. Com a quantidade suficiente de tempo, você consegue criar um diagrama que representa qualquer mecanismo capaz de, dado um movimento inicial, transformá–lo em outro movimento de aproximadamente a mesma força. Diferentes diagramas podem possuir diferentes dificuldades em serem concebidos, podendo ser necessário que você seja bem sucedido em um teste de lógica (inteligência). Algumas coisas que podem representar dificuldades: Precisar que o mecanismo seja compacto ou discreto; Limitar os tipos de materiais utilizados; Precisar que o mecanismo funcione em um ambiente incomum como na neve ou abaixo do oceano; Precisar que o mecanismo funcione várias vezes sem precisar ser “resetado”.
+
+Inventor Especialista
+    Requer inventor
+Quando adquire essa habilidade, você pode escolher um tipo de dificuldade comumente encontrada e se especializar nela. Você pode ignorar qualquer teste que tenha que fazer para superar a dificuldade da sua especialização. Você pode pegar esta habilidade quantas vezes quiser, escolhendo uma especialidade cada vez que escolhe.
+
+Mecanólogo
+    Requer Inventor
+Você consegue conceber diagramas ainda mais complexos. Mecanismos que você concebe são capazes de aumentar a força do movimento inicial, este aumento é proporcional ao tamanho do mecanismo. Além disso, você pode dividir esta força em vários movimentos diferentes e especificar a ordem em que acontecem, te permitindo fazer movimentos mais fortes ou mais refinados.
+
+Alquimista
+Você aprende a criar e ler fórmulas químicas que te permitem purificar, diluir ou transformar um material em outro. Com a quantidade necessária de tempo e recursos, você é capaz de reproduzir qualquer fórmula que tenha anotada. Além disso, caso você não possua os ingredientes necessários, você pode deixar de usufruir de um descanso longo e ser bem sucedido em um teste de Inteligência para tentar descobrir uma fórmula que transforma algum material que você possua em algum outro material que você conheça, perdendo uma parte do material original no processo. Quais materiais podem ser transformados em que, assim como a dificuldade do teste para conseguir descobrir isso ficam a critério da mesa.
+
+Alquimista Pesquisador
+    Requer Alquimista
+Você é capaz de identificar ingredientes comuns (como pólvora, veneno ou ácido) pelo cheiro, cor e textura. Além disso, você é capaz de experimentar com qualquer ingrediente em um dia de trabalho. Ao final deste tempo, uma quantidade a critério da mesa é perdida. Cada vez que você experimenta com um ingrediente, você é capaz de descobrir uma das seguintes informações:
+Se você conhece ele, se sim, qual é.
+Uma propriedade que ele tem em comum com outro ingrediente.
+Uma fórmula ou possibilidade de como poderia ser utilizado.
+Alternativamente, você pode fazer uma pergunta de SIM ou NÃO para o DM para descobrir algo sobre este ingrediente.
+
+Faz Tudo
+Com o tempo necessário, você é capaz de reproduzir uma imitação de qualquer mecanismo ou objeto simples que já tenha visto e qualquer fórmula alquímica simples que já tenha assistido alguém fazer. Contudo, os objetos e mecanismos que você produz são pequenos, frágeis e de uso único. A definição de simples fica a critério da mesa, podendo ser substituída por um teste de inteligência quando necessário.
+
+Médico
+Você possui um conhecimento profundo do corpo humano e das coisas que o fazem mal. Você é capaz de definir os cuidados apropriados para lidar com qualquer tipo de ferimento ou condição negativa e é capaz de realizar procedimentos simples como estabilizar um indivíduo, instalar uma tala ou bandagem sem precisar realizar um teste de habilidade. Além disso, você possui vantagem em qualquer teste para executar um procedimento arriscado e, com os devidos materiais e tempo, você também é capaz de esterilizar decentemente um lugar, negando qualquer chance de infecção.
+
+Aproximação Furtiva
+A não ser que uma criatura esteja ativamente te procurando ou interagindo diretamente com você quando um combate começa, você sempre começa o combate em furtividade. Além disso, você sempre consegue perceber a presença de uma criatura antes que ela perceba você, a não ser que ela esteja propositalmente se escondendo, te procurando ou que você esteja propositalmente fazendo barulho.
+
+
+
+________________________________
+__________________________

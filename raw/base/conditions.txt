@@ -1,0 +1,41 @@
+Atarefado: Você não pode utilizar nenhuma ação fora de seu turno e possui desvantagem em qualquer teste ou disputa para se proteger de um ataque. Além disso, você também ganha a condição desorientado.
+
+Sobrecarregado: Sua movimentação é reduzida, você não pode se esquivar e possui desvantagem em qualquer teste ou disputa de Agilidade.
+
+
+Derrubado: Sua movimentação é reduzida e você não pode utilizar nenhuma habilidade ofensiva ou defensiva, somente ataques básicos e ações defensivas.
+
+Em Queda: Enquanto você está caindo, você não pode se esquivar de nenhum ataque.
+
+Agarrado: Você não pode se mover para longe do inimigo que está te agarrando e possui desvantagem em testes e disputas de Impacto, Acerto, Defesa e Esquiva.
+
+Ferido: Uma criatura ferida deve ser bem sucedida em um teste de fôlego(convicção ou robustez) sempre que desejar realizar uma ação. Se ela falhar neste teste, ela recebe 1 de dano. Uma criatura pode receber esta condição múltiplas vezes, a cada vez, o dano e o DC do teste aumentam em 1.
+
+Envenenado: Uma criatura envenenada deve ser bem sucedida em um teste de imunidade(robustez) sempre que desejar realizar uma ação. Se ela falhar neste teste, ela é incapaz de realizar a ação e recebe qualquer penalidade específica do veneno que a envenenou. Além disso, ela também fica Desorientada. 
+
+Cansado: Uma criatura cansada possui desvantagem em qualquer teste ou disputa que envolva força, agilidade ou robustez.
+
+Exausto: Uma criatura exausta deve ser bem sucedida em um teste de fôlego(convicção) sempre que desejar se mover ou realizar uma ação. Se ela falha neste teste, ela automaticamente cai no chão. Além disso, ela também fica cansada.
+
+Abatido: Uma criatura abatida possui desvantagem em qualquer teste ou disputa, fica derrubada, não pode se levantar e deve ser bem sucedida em um teste de fôlego(convicção ou robustez) para se mover. 
+
+Desmaiado: Uma criatura desmaiada falha automaticamente em qualquer teste ou disputa, não pode se mover, executar nenhuma ação, ou perceber o ambiente.
+
+Queimado: Uma criatura que está queimada recebe -2 de resistência a todos os tipos de dano e recebe 1 de dano sempre que realiza uma ação ou movimentação que envolve a parte de seu corpo com a queimadura.
+
+Molhado: Um inimigo molhado é aquele que está recoberto por água. Você recebe -2 de resistência a dano frio e a elétrico e possui desvantagem em testes ou disputas para segurar algo ou alguém. Além disso, você  se torna imune à condição untado.
+
+Untado: Um inimigo untado é aquele que está recoberto por óleo. Você recebe -2 de resistência a fogo e possui desvantagem em testes ou disputas para segurar algo ou alguém. Além disso, você  se torna imune à condição molhado e possui vantagem em testes para evitar ser agarrado ou para passar por lugares apertados.
+
+Surpreso: Criaturas surpresas não podem realizar habilidades defensivas e devem gastar o seu turno para se recuperar da surpresa. Além disso, você também ganha a condição desorientado.
+
+Amedrontado: Enquanto a fonte do seu medo está em sua linha de visão, você possui desvantagem em qualquer teste e disputa de acerto e impacto e o seu dano é reduzido em 2. Além disso, você também ganha a condição desorientado.
+
+Paralizado: Uma criatura paralisada não pode se mover ou realizar uma ação.
+
+Furioso: Enquanto você está furioso, você recebe vantagem em qualquer disputa ou teste de força e robustez. Além disso, você não pode ser amedrontado. 
+
+Desorientado: A condição de desorientado representa o estado mental de uma criatura que não consegue pensar claramente. Você tem dificuldade em se localizar, se guiar e possui desvantagem em qualquer teste que requeira algum tipo de foco ou concentração. 
+
+Bêbado: Você possui desvantagem em testes de inteligência e agilidade, mas possui vantagem em testes de convicção e força. Além disso, você fica desorientado
+

@@ -1,0 +1,5 @@
+Classe de tamanho	Nome	Bônus de Esquiva	Propriedades	Bolsos	Resistências
+B	Vestes	0	Status	5	-
+C	Armadura leve	-1	-	3	Cortante(1) Impacto(2)
+C	Armadura média	-2	-	2	Cortante(2) Perfurante(2) Impacto(1)
+D	Armadura pesada	-2	Barulhenta	1	Cortante(4) Impacto(2)

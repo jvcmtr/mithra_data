@@ -1,0 +1,3 @@
+Barulhenta: Se você está utilizando uma armadura barulhenta, você deve repetir seu teste de furtividade sempre que se mover e você possui desvantagem no teste
+Status: Esta armadura pode ser usada para representar um status social à sua escolha, que pode ser um status econômico, político ou ideológico. Mesmo que um indivíduo não te conheça, ele consegue reconhecer em você o status social que a sua roupa representa.
+
