@@ -1,4 +1,3 @@
-Ofensivas
 Investida 
     (Habilidade Ofensiva)
 Quando você se move em linha reta em uma direção, você pode realizar um ataque conduzido contra as criaturas em seu caminho
@@ -393,8 +392,3 @@ Você possui um conhecimento profundo do corpo humano e das coisas que o fazem m
 
 Aproximação Furtiva
 A não ser que uma criatura esteja ativamente te procurando ou interagindo diretamente com você quando um combate começa, você sempre começa o combate em furtividade. Além disso, você sempre consegue perceber a presença de uma criatura antes que ela perceba você, a não ser que ela esteja propositalmente se escondendo, te procurando ou que você esteja propositalmente fazendo barulho.
-
-
-
-________________________________
-__________________________
