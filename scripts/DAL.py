@@ -19,6 +19,3 @@ def get_module(module_name):
     for file in files:
         data[ name_key(file) ] = read( f"{module_name}/{file}" )
     return data
-        
-base_module = get_module("base")
-print(base_module.keys())
