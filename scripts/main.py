@@ -1,17 +1,13 @@
 import DAL
 import converter
 
-HABILITIES = []
-WEAPONS = []
-WEAPON_HAB = []
-ARMOURS = []
-ARMOUR_PROPS = []
-ACTIONS = []
-CONDITIONS = []
+DATA = {}
 
 def main():
     load_module("base")
-    print(HABILITIES)
+
+    print(DATA["weapons"])
+    
     pass
 
 def load_module(name):
@@ -20,8 +16,8 @@ def load_module(name):
     append_data(formated)
     
 def append_data(data):
-    global HABILITIES 
-    HABILITIES += data
+    global DATA 
+    DATA = data
     pass
 
 

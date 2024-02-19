@@ -1,5 +1,4 @@
-
-
+import utils
 
 def __habilities( raw_text :str ):
     raw_text = raw_text.replace("\t"," ").replace("  ", " ").strip()
@@ -34,8 +33,20 @@ def __habilities( raw_text :str ):
     
     return habilities
 
+def __weapons( raw_text : str):
+    return utils.csv_to_dict_array(raw_text, separator="\t")
+    pass
+
 def format( data ):
-    # if data.habilities:
-    #   
-    return __habilities( data['habilities'] )
+    d = {}
+    if "habilities" in data :
+    #if data.habilities:
+        d["habilities"] = __habilities( data['habilities'] )
+
+    if "weapons" in data :
+    #if data. weapons:
+        d["weapons"] = __weapons( data['weapons'] )
+
+    return d
+    
         
