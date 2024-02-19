@@ -23,6 +23,20 @@ def csv_to_dict_array( text: str, separator=",", first_line_as_model = True):
 
     return dicts
 
+def read_name_and_definition(text: str, separator=":"):
+    lines = text.replace("  ", " ").strip().splitlines()
 
+    habilities = []
+    d = {}
 
+    for line in lines:
+        if line == "":
+            continue
+
+        props = line.split(separator, 1)
+        habilities.append({
+            "nome" : props[0],
+            "descrição" : props[1]
+        })
+    return lines
 
