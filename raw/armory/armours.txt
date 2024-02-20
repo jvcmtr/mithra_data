@@ -20,4 +20,3 @@ D	Pesada	Armadura Ornada	-2	Cortante(3) Perfurante(2)	1	Barulhenta, Status, Vise
 D	Pesada	Armadura de Placas	-2	Cortante(4) Impacto(2)	2	Barulhenta
 E	Pesada	Armadura Articulada	-2	Cortante(4) Impacto(2) Perfurante(4)	1	Pesada, Barulhenta, Impermeável
 E	Pesada	Armadura Completa	-3	Cortante(4) Impacto(3) Perfurante(3)	1	Pesada, Barulhenta, Viseira, Volumosa, Isolante
-						

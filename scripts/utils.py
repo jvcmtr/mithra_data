@@ -24,7 +24,7 @@ def csv_to_dict_array( text: str, separator=",", first_line_as_model = True):
     return dicts
 
 def read_name_and_definition(text: str, separator=":"):
-    "returns a array of dicts containing [name] and [definition] properties"
+    "returns a array of dicts containing [nome] and [descrição] properties"
     lines = text.replace("  ", " ").strip().splitlines()
     habilities = []
     d = {}
