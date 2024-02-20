@@ -3,4 +3,3 @@ scripts/__pycache__
 # automation
 updated/
 scripts/procedures/update_files.py
-scripts/procedures/linker.py
