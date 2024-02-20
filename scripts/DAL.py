@@ -6,7 +6,7 @@ def __read(file_name):
     f = open( f"{__path}{file_name}" , "r", encoding="utf-8")
     s = f.read()
     f.close()
-    return s
+    return s.lower()
 
 def __name_key(name):
     "defines the name of the property based on the name of the file"

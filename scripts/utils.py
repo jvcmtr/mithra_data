@@ -5,7 +5,7 @@ def csv_to_dict_array( text: str, separator=",", first_line_as_model = True):
 
     if first_line_as_model:
         start_index += 1
-        columns = rows[0].split(separator)
+        columns = rows[0].lower().split(separator)
     else :
         columns = range(len(rows[0].split(separator)))
 
@@ -55,7 +55,8 @@ def smart_string_split (string: str, separators = ";, ", trim_results=True):
             break
     
     if trim_results:
-        string = string.replace(" " + separator + " ", separator)
+        string = string.replace(" " + separator, separator)
+        string = string.replace(separator + " ", separator)
         
     return string.split(separator)
 

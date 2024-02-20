@@ -5,20 +5,27 @@ DATA = {}
 
 def main():
     load_module("base")
+    load_module("armory")
 
-    print(DATA["weapons"])
+    for w in DATA["weapons"]:
+        print(w["nome"])
     
     pass
 
 def load_module(name):
     raw_data = DAL.get_module(name)
     formated = converter.format(raw_data)
-    append_data(formated)
+    append_data(formated, name)
     
-def append_data(data):
+def append_data(data, module):
     global DATA 
-    DATA = data
-    pass
+    for key in data.keys():
+        if key in DATA.keys():
+            DATA[key] += data[key]
+        else:
+            DATA[key] = data[key]
+
+
 
 
 

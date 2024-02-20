@@ -48,8 +48,8 @@ def __weapons( raw_text : str):
     for i in range(len(weapons)):
         weapons[i] = utils.reasign_boolean_strings( weapons[i] )
         weapons[i] = utils.replace_dict_values(weapons[i], "-", "" )
-        weapons[i]["Habilidades"] = utils.smart_string_split(weapons[i]["Habilidades"])
-        weapons[i]["Tipo de dano"] = weapons[i]["Tipo de dano"].replace(" / ", "/").split("/")
+        weapons[i]["habilidades"] = utils.smart_string_split(weapons[i]["habilidades"])
+        weapons[i]["tipo de dano"] = weapons[i]["tipo de dano"].replace(" / ", "/").split("/")
     
     return weapons
 
@@ -63,7 +63,7 @@ def __armours( raw_text : str):
 
     for i in range(len(armours)):
         armours[i] = utils.replace_dict_values(armours[i], "-", "" )
-        armours[i]["Propriedades"] = utils.smart_string_split(armours[i]["Propriedades"])
+        armours[i]["propriedades"] = utils.smart_string_split(armours[i]["propriedades"])
     
     return armours
 
