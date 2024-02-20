@@ -1,0 +1,15 @@
+Barulhenta: Se você está utilizando uma armadura barulhenta, você deve repetir seu teste de furtividade sempre que se mover e você possui desvantagem no teste
+
+Impermeável: Você se torna imune às condições molhado e untado à critério da mesa.
+
+Isolante: Esta armadura serve para te isolar das temperaturas externas. Você ganha 2 pontos de resistência a fogo e a frio e possui resistência às intempéries do ambiente.
+
+Pesada: Você fica ganha a condição sobrecarregado quando veste esta armadura e se torna incapaz de nadar.
+
+Simples: Você não precisa de conhecimentos específicos para consertar esta armadura.
+Status: Esta arma pode ser usada para representar um status social, que pode ser um status econômico, político ou ideológico. Mesmo que um indivíduo não te conheça, ele consegue reconhecer em você o status social que esta arma representa.
+
+Volumosa: Você possui desvantagem em qualquer teste que envolva se mover enquanto usa essa armadura como por exemplo para nadar, correr, pular ou escalar. Além disso, se você cair no chão, você deve gastar a sua ação para se levantar.
+
+Viseira: Você possui desvantagem em testes e disputas de percepção enquanto usa esta armadura.
+
