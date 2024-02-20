@@ -5,14 +5,11 @@ def relate_data(data):
     __init_links(data)
     
     data = __link_armour(data)
-    data = __link_weapon(data)    
+    data = __link_weapon(data)  
     data = __link_hability_requirements(data)
     data = __link_descriptions(data)
     
-    print((data["armours"][5]))
-    print((data["weapons"][0]))
-    print((data["habilities"][22]))
-    print((data["conditions"][0]))
+    return data
     
 
 ### INITIALIZATION FUNCTIONS
@@ -28,7 +25,7 @@ def __generate_link(group, resource, item):
     name = item["nome"]
     alias = " "+name+" "
     id = resource.index(item)
-    link = f"[[{group}:{id}|{name}]]"
+    link = f" [[{group}:{id}|{name}]] "
     
     if (name == "") or (name == " "):
         name = " # E R R O R "

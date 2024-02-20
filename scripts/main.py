@@ -1,16 +1,18 @@
+import json
 import DAL
 import converter
+import procedures.linker as linker
 
 DATA = {}
 
 def main():
+    global DATA
+    
     load_module("base")
     load_module("armory")
+    DATA = linker.relate_data(DATA)
+    write_to_file()
 
-    for w in DATA["weapons"]:
-        print(w["nome"])
-    
-    pass
 
 def load_module(name):
     raw_data = DAL.get_module(name)
@@ -25,22 +27,10 @@ def append_data(data, module):
         else:
             DATA[key] = data[key]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def write_to_file():
+    global DATA
+    with open("data.json", "w", encoding="utf-8") as data_file:
+        json.dump(DATA, data_file, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()
