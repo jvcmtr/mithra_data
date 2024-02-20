@@ -6,7 +6,7 @@ __PROPS = [
     "weapon_habilities", 
     "armours",
     "armour_props",
-    "__conditions"
+    "conditions"
 ]
 
 
@@ -26,7 +26,7 @@ def __habilities( raw_text :str ):
             current = {}
             continue
         
-        if not "name" in current:
+        if not "nome" in current:
             current["nome"] = line
             current["tipo"] = ""
             current["requerimentos"] = ""
@@ -45,7 +45,9 @@ def __habilities( raw_text :str ):
 
 def __weapons( raw_text : str):
     # TO DO : SEPARATE HABILITIES
-    return utils.csv_to_dict_array(raw_text, separator="\t")
+    weapons =  utils.csv_to_dict_array(raw_text, separator="\t")
+    weapons = __set_boolean_from_strings( weapons )
+    return  weapons
 
 def __weapon_habilities( raw_text : str):
     return utils.read_name_and_definition(raw_text)
@@ -61,14 +63,29 @@ def __armour_props( raw_text : str):
 def __conditions( raw_text : str):
     return utils.read_name_and_definition(raw_text)
 
+def __include_module( data : list , module : str):
+    data
+    for d in data:
+        d["modulo"] = module
+    return data
+
+def __set_boolean_from_strings( dict_array ):
+    for item in dict_array:
+        for key in item.keys():
+            if item["key"] == "FALSO" or "FALSE":
+                item["key"] = False
+            if item["key"] == "VERDADEIRO" or "TRUE":
+                item["key"] = True
+    return dict_array
+
 def format( data ):
     d = {}
-
     for prop in __PROPS:
         func = globals()["__" + prop]
         if prop in data :
             d[prop] = func( data[prop] )
-
+            d[prop] = __include_module( d[prop], data["name"])        
     return d
+ 
     
         

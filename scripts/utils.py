@@ -38,5 +38,5 @@ def read_name_and_definition(text: str, separator=":"):
             "nome" : props[0],
             "descrição" : props[1]
         })
-    return lines
+    return habilities
 
