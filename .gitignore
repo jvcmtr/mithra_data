@@ -1,3 +1,6 @@
+.temp/
+.deprecated/
+
 scripts/__pycache__
 
 # automation
