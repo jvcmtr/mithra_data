@@ -1,0 +1,67 @@
+import click
+from pathlib import Path
+from program import main as MAIN
+from program import test as TEST
+import _config
+
+@click.group()
+def cli():
+    pass
+
+ROOT = Path(__file__).parent
+
+
+
+########################################### MAIN 
+@click.command()
+@click.option('--input', 
+              default=_config.DEFAULT_INPUT_DIRECTORY, 
+              help='directory containing the mithra-doc modules. each module should be a folder with a config.json file')
+@click.option('--output',
+              default=_config.DEFAULT_OUTPUT_FILE,
+              help='File where the processed data will be saved')
+@click.option('--backup-location', 
+              default=_config.DEFAULT_BACKUP_DIRECTORY,
+              help='directory where the previous output is going to be stored. use --no-backup if not required')
+@click.option('--no-backup', 
+              is_flag=True, 
+              default=False,
+              help='default is false. pass this argument if you wish to not use a backup')
+def main(input, output, backup_location, no_backup):
+    input = ROOT/input
+    output = ROOT/output
+    backup_location = ROOT/backup_location
+    click.echo(f"Running '/project/main.py'  input-directory: '{input}' , output-file: '{output}' , use-backup? {not no_backup}" + f" , backup folder: {backup_location}" if not no_backup else "" )
+    click.echo(f"To change the default settings alter _config.py" )
+    MAIN.main(input, output, backup_location if not no_backup else None)
+
+
+########################################### TEST
+@click.command()
+@click.option('--input', 
+              default=_config.DEFAULT_TEST_INPUT_DIRECTORY, 
+              help='directory containing the mithra-doc modules. each module should be a folder with a config.json file')
+@click.option('--output',
+              default=_config.DEFAULT_TEST_OUTPUT_FILE,
+              help='File where the processed data will be saved')
+@click.option('--backup-location', 
+              default=_config.DEFAULT_TEST_BACKUP_DIRECTORY,
+              help='directory where the previous output is going to be stored. use --no-backup if not required')
+@click.option('--use-backup', 
+              is_flag=True, 
+              default=False,
+              help='default is false. pass this argument if you wish to use a backup')
+def test(input, output, backup_location, use_backup):
+    input = ROOT/input
+    output = ROOT/output
+    backup_location = ROOT/backup_location
+    click.echo(f"Running '/project/test.py'  input-directory: '{input}' , output-file: '{output}' , use-backup? {use_backup}" + f" , backup folder: {backup_location}" if use_backup else "" )
+    click.echo(f"To change the default settings alter _config.py" )
+    TEST.main(input, output, backup_location if use_backup else None)
+
+
+# Add commands to the cli group
+cli.add_command(main)
+cli.add_command(test)
+if __name__ == "__main__":
+    cli()

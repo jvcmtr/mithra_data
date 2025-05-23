@@ -1,0 +1,44 @@
+from pathlib import Path
+from datetime import datetime
+import program.DAL.Repository as repository 
+import program.Services.ProceduresPipe as procedures
+import program.Utils.JsonHelper as jsonHelper
+
+input = "_raw_modules"
+output = "Data.json"
+backup_directory = "backup/temp"
+
+
+    ##################################################
+    #
+    #   This file is the backup implementation of main.py
+    #   before It was replaced by run.py, that uses the click lib
+    #   to handle command line arguments
+    #
+    #####################################################
+
+ROOT = Path(__file__).parent
+MODULES_DIR = ROOT / input
+OUTPUT_FILE = ROOT / output 
+BACKUP_DIR = ROOT / backup_directory 
+
+
+def main():
+    data = repository.load_modules_from(MODULES_DIR)
+    data = procedures.exec(data)
+    save_backup()
+    jsonHelper.write_file(OUTPUT_FILE, data)
+    
+    
+def save_backup():
+    try:
+        dt = jsonHelper.read_file(OUTPUT_FILE)
+        file_path = BACKUP_DIR / datetime.now().strftime("%Y-%m-%d_%H-%M-%S.bak.json")
+        jsonHelper.write_file(file_path, dt)
+    except:
+        raise("unable to create backup file")
+
+
+
+if __name__ == "__main__":
+    main()
