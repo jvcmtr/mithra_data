@@ -12,7 +12,7 @@ def main(input_directory, output_file, backup_dir = None):
     
     if(backup_dir != None):
         save_backup(output_file, backup_dir)
-    jsonHelper.write_file(output_file, data)
+    jsonHelper.write_file(output_file, data, is_module_list=True )
 
 
 def save_backup(output_file, backup_dir):

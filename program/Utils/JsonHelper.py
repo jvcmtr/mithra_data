@@ -1,7 +1,11 @@
 import os
 import json
+from dataclasses import asdict
 
-def write_file(path, data):
+# Created using AI, adapted by hand
+
+
+def write_file(path, data, is_module_list = False):
     """
     Write data to a JSON file at the specified path.
     Creates directories if they don't exist.
@@ -9,6 +13,9 @@ def write_file(path, data):
         path (str): The file path where JSON will be written.
         data (any): The data to write as JSON.
     """
+    if(is_module_list):
+        data = [asdict(x) for x in data]
+        
     os.makedirs(os.path.dirname(path), exist_ok=True)  # Ensure directory exists
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)

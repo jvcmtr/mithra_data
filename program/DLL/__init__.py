@@ -6,4 +6,4 @@ from .Hability import Hability
 from .Item import Item
 from .Weapon import Weapon
 
-__all__ = ["MModule", "Armour", "Descriptor", "Doc", "Hability", "Item", "Weapon", "WeaponHability"]
+__all__ = ["MModule", "Armour", "Descriptor", "Doc", "Hability", "Item", "Weapon"]

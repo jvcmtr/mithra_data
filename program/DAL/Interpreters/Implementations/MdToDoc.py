@@ -1,46 +1,36 @@
 
 
-def parse():
-    pass
+def parse(md_string):
+    return _parse_markdown(md_string)
     
 # GERADO USANDO IA
-def parse_markdown(lines):
-    stack = []  # Stack to manage hierarchy
-    root = []
+# TA UMA MERDA PUTA QUE PARIU QUE BICHO BURRO DA PORRA
+# VOU TER QUE FAZER NA MÃO
+def _parse_markdown(lines):
+    root = {}
+    stack = [(0, root)]  # (level, current_dict)
 
     for line in lines:
-        line = line.strip()
-        if not line:
+        stripped = line.strip()
+        if not stripped.startswith('#'):
             continue
 
-        if line.startswith('#'):
-            level = len(line.split(' ')[0])  # Count '#' for level
-            text = line[level:].strip()
-            node = {
-                "type": f"h{level}",
-                "text": text,
-                "content": []
-            }
+        # Determine the header level
+        level = len(stripped.split(' ')[0])
+        header_text = stripped[level:].strip()
 
-            # Find where to insert based on header level
-            while stack and stack[-1][0] >= level:
-                stack.pop()
-            if stack:
-                stack[-1][1]["content"].append(node)
-            else:
-                root.append(node)
-            stack.append((level, node))
+        # Create new nested dict for this header
+        new_dict = {}
 
-        else:
-            # It's a paragraph
-            node = {
-                "type": "p",
-                "text": line,
-                "content": []
-            }
-            if stack:
-                stack[-1][1]["content"].append(node)
-            else:
-                root.append(node)
+        # Pop from the stack until we find the correct parent level
+        while stack and stack[-1][0] >= level:
+            stack.pop()
+
+        # Insert into the parent dictionary
+        parent_level, parent_dict = stack[-1]
+        parent_dict[header_text] = new_dict
+
+        # Push the new dict to the stack
+        stack.append((level, new_dict))
 
     return root

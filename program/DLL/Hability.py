@@ -1,16 +1,11 @@
+from dataclasses import dataclass
 from typing import List
 
+@dataclass
 class Hability:
-    def __init__(
-        self,
-        nome: str,
-        tipo: str,
-        requerimentos: List[str],
-        descricao: str,
+        nome: str
+        tipo: str
+        requerimentos: List[str]
+        descricao: str
         modulo: str
-    ):
-        self.nome = nome
-        self.tipo = tipo
-        self.requerimentos = requerimentos
-        self.descricao = descricao
-        self.modulo = modulo
+        
