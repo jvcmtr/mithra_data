@@ -1,0 +1,101 @@
+[
+  {
+    "name": "nome_do_modulo 2",
+    "theme": null,
+    "version": "versão",
+    "module_dependencies": null,
+    "rules": null,
+    "wiki_entries": [],
+    "weapons": null,
+    "weapon_abilities": null,
+    "armours": null,
+    "armour_properties": null,
+    "items": null,
+    "conditions": null,
+    "habilities": null
+  },
+  {
+    "name": "nome_do_modulo",
+    "theme": null,
+    "version": "versão",
+    "module_dependencies": null,
+    "rules": null,
+    "wiki_entries": [
+      {
+        "linkId": "h1",
+        "type": "h1",
+        "text": "Testing",
+        "content": [],
+        "children": [
+          {
+            "linkId": "h2",
+            "type": "h2",
+            "text": "Header 2",
+            "content": [],
+            "children": [
+              {
+                "linkId": "h6",
+                "type": "h6",
+                "text": "h6",
+                "content": [],
+                "children": [
+                  {
+                    "linkId": "p",
+                    "type": "p",
+                    "text": "my text",
+                    "content": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "linkId": "h2",
+            "type": "h2",
+            "text": "inner subheader",
+            "content": [],
+            "children": [
+              {
+                "linkId": "p",
+                "type": "p",
+                "text": "some text",
+                "content": [],
+                "children": []
+              },
+              {
+                "linkId": "p",
+                "type": "p",
+                "text": "some text",
+                "content": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "linkId": "h1",
+        "type": "h1",
+        "text": "OTHER H1",
+        "content": [],
+        "children": [
+          {
+            "linkId": "txt",
+            "type": "txt",
+            "text": "",
+            "content": [],
+            "children": []
+          }
+        ]
+      }
+    ],
+    "weapons": null,
+    "weapon_abilities": null,
+    "armours": null,
+    "armour_properties": null,
+    "items": null,
+    "conditions": null,
+    "habilities": null
+  }
+]
