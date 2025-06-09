@@ -2,6 +2,8 @@
 **/temp/
 **/__pycache__/
 
+# IDE
+.vscode/
 
 
 scripts/__pycache__
